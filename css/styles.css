@@ -2846,15 +2846,15 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg:  red;
-  --bs-btn-border-color: red;
+  --bs-btn-bg: blue;
+  --bs-btn-border-color: blue;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg:  red;
-  --bs-btn-hover-border-color:  red;
+  --bs-btn-hover-border-color:blue;
   --bs-btn-focus-shadow-rgb: 255, 208, 38;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg:  red;
-  --bs-btn-active-border-color:  red;
+  --bs-btn-active-border-color:  blue;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg:  red;
@@ -10947,7 +10947,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: var(--bs-red);
+  color: white;
   background-image: url("../assets/img/post.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10959,6 +10959,7 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
+  font-weight: bolder;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-heading {
